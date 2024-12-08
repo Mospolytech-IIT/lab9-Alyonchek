@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit User</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Edit User</h1>
+    </header>
+    <div class="container">
+        <form action="/users/web/edit/{{ user.id }}" method="post">
+            <label>Username: <input type="text" name="username" value="{{ user.username }}"></label>
+            <label>Email: <input type="email" name="email" value="{{ user.email }}"></label>
+            <label>Password: <input type="password" name="password"></label>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</body>
+</html>
