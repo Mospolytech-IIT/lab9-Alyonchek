@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Edit Post</h1>
+    </header>
+    <div class="container">
+        <form action="/posts/web/edit/{{ post.id }}" method="post">
+            <label>Title: <input type="text" name="title" value="{{ post.title }}"></label>
+            <label>Content: <textarea name="content" rows="5">{{ post.content }}</textarea></label>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</body>
+</html>

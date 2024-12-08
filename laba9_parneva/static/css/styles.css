@@ -1,0 +1,116 @@
+body {
+    font-family: "Comic Sans MS", Comic, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF7F4;
+    color: #333;
+}
+
+header {
+    background-color: #F5E1DA;
+    color: #333;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #E8C4BA;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #E8C4BA;
+}
+
+a {
+    color: #4A4A4A;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D3A9A1;
+}
+
+header a {
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #D3A9A1;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+    padding: 1.2rem;
+    background-color: #FCEDEC;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border: 1px solid #E8C4BA;
+    color: #4A4A4A;
+}
+
+strong {
+    font-size: 1.5rem;
+    color: #4A4A4A;
+}
+
+em {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    color: white;
+    background-color: #F5E1DA;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #E8C4BA;
+}
+
+form label {
+    display: block;
+    margin: 0.8rem 0;
+    font-size: 1.2rem;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #E8C4BA;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    background-color: #FDF7F4;
+}
+
+form button {
+    width: 100%;
+    background-color: #F5E1DA;
+    color: #333;
+    font-weight: bold;
+}

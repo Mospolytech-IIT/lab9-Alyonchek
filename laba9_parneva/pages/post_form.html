@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Post</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Create Post</h1>
+    </header>
+    <div class="container">
+        <form action="/posts/web/" method="post">
+            <label>Title: <input type="text" name="title"></label>
+            <label>Content: <textarea name="content" rows="5"></textarea></label>
+            <label>User ID:
+                <select name="user_id">
+                    {% for user in users %}
+                    <option value="{{ user.id }}">{{ user.username }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <button type="submit">Create</button>
+        </form>
+    </div>
+</body>
+</html>
